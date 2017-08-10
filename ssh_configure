@@ -1,0 +1,4 @@
+Host boston
+HostName boston-cluster.lti.cs.cmu.edu
+User xinq
+ProxyCommand ssh xinq@linux.gp.cs.cmu.edu nc %h %p
