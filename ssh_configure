@@ -2,3 +2,11 @@ Host boston
 HostName boston-cluster.lti.cs.cmu.edu
 User xinq
 ProxyCommand ssh xinq@linux.gp.cs.cmu.edu nc %h %p
+
+
+If you’re on Mac or Linux, you can edit your local SSH config file in ~/.ssh/config and add the following line:
+
+1
+ServerAliveInterval 120
+
+
